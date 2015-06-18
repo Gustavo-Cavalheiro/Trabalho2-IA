@@ -12,6 +12,8 @@ public class Classificacao {
 
     public static void main(String[] args) throws Exception{
         
+            Vinhos.harmonizacao();
+        
 		// Lendo os exemplos a partir do arquivo estado-nutricional.arff
 		FileReader leitor = new FileReader("estado-nutricional.arff");
 		Instances base = new Instances(leitor);
@@ -34,7 +36,8 @@ public class Classificacao {
 		knn.buildClassifier(baseTreino);
 		vizinho.buildClassifier(baseTreino);
 		
-		System.out.println("real\tknn\tvizinho"); // imprimindo rotulos para as colunas
+                System.out.println("\nDados Contínuos");
+		System.out.println("\nreal\tknn\tvizinho"); // imprimindo rotulos para as colunas
 		
 		for (int e = 0; e < baseTeste.numInstances(); e++) {
 			Instance exemplo = baseTeste.instance(e);

@@ -10,14 +10,13 @@
 % 
 % 4. Número de instâncias: 80 (20 de cada classe)
 % 
-% 5. Númeo de atributos: 4 numéricos e 1 nominal (classe)
+% 5. Númeo de atributos: 3 numéricos e 1 nominal (classe)
 % 
 % 6. Informações dos atributos:
-%    1. Sexo masculino (valor 1) e feminino (valor 0)
-%    2. Idade em anos
-%    3. Peso em Kg
-%    4. Estatura em metros
-%    5. Classe: 
+%    1. Idade em anos
+%    2. Peso em Kg
+%    3. Estatura em metros
+%    4. Classe: 
 %       -- Desnutrido
 %       -- Ideal
 %       -- Sobrepeso
